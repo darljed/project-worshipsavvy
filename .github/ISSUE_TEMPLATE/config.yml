@@ -1,0 +1,11 @@
+blank_issues_enabled: false
+contact_links:
+  - name: 💬 Questions & setup help
+    url: https://github.com/darljed/project-worshipsavvy/discussions
+    about: For usage questions, setup help, and general discussion — not bugs.
+  - name: 🌐 WorshipSavvy website
+    url: https://worshipsavvy.darl.dev
+    about: Learn more about WorshipSavvy.
+  - name: ✉️ Contact the maintainer
+    url: mailto:hello@darl.dev
+    about: Partnership, collaboration, or anything not suited to a public issue.

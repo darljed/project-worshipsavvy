@@ -1,0 +1,31 @@
+name: 💡 Feature request
+description: Suggest an idea or improvement for WorshipSavvy.
+title: "[Feature]: "
+labels: ["enhancement"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Have an idea to make Sunday services smoother? Tell us about it.
+  - type: textarea
+    id: problem
+    attributes:
+      label: What problem would this solve?
+      description: Describe the situation on your media team that this would help with.
+      placeholder: During altar ministry we need to loop announcements while the logo shows...
+    validations:
+      required: true
+  - type: textarea
+    id: proposal
+    attributes:
+      label: What would you like WorshipSavvy to do?
+      description: Describe the feature or change you'd like to see.
+    validations:
+      required: true
+  - type: textarea
+    id: alternatives
+    attributes:
+      label: Alternatives or workarounds
+      description: How do you handle this today, if at all?
+    validations:
+      required: false

@@ -1,0 +1,11 @@
+# WorshipSavvy funding / donation channels.
+# Uncomment and fill in the handles you actually use, then push.
+# GitHub renders a "Sponsor" button on the repo from whatever is enabled here.
+# Docs: https://docs.github.com/repositories/managing-your-repositorys-settings-and-features/customizing-your-repository/displaying-a-sponsor-button-in-your-repository
+
+# github: darljed          # requires GitHub Sponsors enabled on your account
+# ko_fi: darljed           # https://ko-fi.com/<handle>
+# buy_me_a_coffee: darljed # https://buymeacoffee.com/<handle>
+# custom:
+#   - https://paypal.me/<handle>
+#   - https://darl.dev/support   # e.g. a GCash / Maya QR landing page

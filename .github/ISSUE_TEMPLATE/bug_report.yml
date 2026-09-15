@@ -1,0 +1,54 @@
+name: 🐞 Bug report
+description: Something in WorshipSavvy isn't working as expected.
+title: "[Bug]: "
+labels: ["bug"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Thanks for helping improve WorshipSavvy! Please fill in the details below so we can reproduce and fix it quickly.
+  - type: textarea
+    id: what-happened
+    attributes:
+      label: What happened?
+      description: What did you expect to happen, and what actually happened instead?
+      placeholder: I clicked "Go Live" on a song and the projector screen stayed black...
+    validations:
+      required: true
+  - type: textarea
+    id: steps
+    attributes:
+      label: Steps to reproduce
+      description: Step-by-step, so we can see it too.
+      placeholder: |
+        1. Open WorshipSavvy
+        2. Add a song to the schedule
+        3. Double-click it to go live
+        4. See the error
+    validations:
+      required: true
+  - type: dropdown
+    id: os
+    attributes:
+      label: Operating system
+      options:
+        - macOS
+        - Windows
+        - Other (note in description)
+    validations:
+      required: true
+  - type: input
+    id: version
+    attributes:
+      label: WorshipSavvy version
+      description: Find it in Help → About.
+      placeholder: e.g. 1.0.0
+    validations:
+      required: true
+  - type: textarea
+    id: extra
+    attributes:
+      label: Screenshots / screen recording / logs
+      description: Drag files here. A short clip helps a lot for visual bugs.
+    validations:
+      required: false
