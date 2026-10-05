@@ -23,7 +23,9 @@ from any phone or tablet on the church Wi-Fi. An answer to EasyWorship.
 
 This is the **public home for WorshipSavvy** — where the app is released,
 where users report issues and request features, and where the community
-gathers. The application source code lives in a separate repository; **this
+gathers. The application source code lives in the sibling repositories
+bundled here as git submodules (see
+**[Repository layout](#repository-layout)**); **this
 repo is the hub for:**
 
 - **📦 Releases & downloads** — installers for macOS and Windows, published on
@@ -36,6 +38,25 @@ repo is the hub for:**
 
 Built in partnership between **[Darl.Dev](https://darl.dev)** and
 **Christ-Driven Christian Fellowship Inc.**
+
+## Repository layout
+
+WorshipSavvy is split into focused repos and assembled here with
+**[git submodules](https://git-scm.com/book/en/v2/Git-Tools-Submodules)**:
+
+| Path | Repository | What lives there |
+|---|---|---|
+| [`tauri/`](tauri/) | [worshipsavvy-tauri](https://github.com/darljed/worshipsavvy-tauri) | The desktop app (Tauri) — song/Bible/media engine, stage display, remote control. |
+| [`landing/`](landing/) | [worshipsavvy-landingpage](https://github.com/darljed/worshipsavvy-landingpage) | The marketing/download website (worshipsavvy.darl.dev). |
+| [`iem/`](iem/) | [worshipsavvy-iem](https://github.com/darljed/worshipsavvy-iem) | WorshipSavvy IEM — phones as a wireless in-ear monitor system (orchestrator + receiver mixes over local Wi-Fi). |
+
+Cloning this repo with its submodules:
+
+```sh
+git clone --recurse-submodules https://github.com/darljed/project-worshipsavvy.git
+# or, if already cloned:
+git submodule update --init --recursive
+```
 
 ## What WorshipSavvy does
 
