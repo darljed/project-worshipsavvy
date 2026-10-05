@@ -1,0 +1,9 @@
+[submodule "tauri"]
+	path = tauri
+	url = https://github.com/darljed/worshipsavvy-tauri.git
+[submodule "landing"]
+	path = landing
+	url = https://github.com/darljed/worshipsavvy-landingpage.git
+[submodule "iem"]
+	path = iem
+	url = https://github.com/darljed/worshipsavvy-iem.git
